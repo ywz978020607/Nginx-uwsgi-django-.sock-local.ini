@@ -25,7 +25,8 @@ pip install django-cors-headers -i https://pypi.tuna.tsinghua.edu.cn/simple/
 #可以安装apt版本uwsgi，详见uwsgi.ini配置中说明
 apt install uwsgi
 apt install uwsgi-plugin-python3
-# anaconda3环境参考
+# anaconda3环境参考（推荐！）
+https://blog.csdn.net/xiefeisd/article/details/89486934
 https://www.cnblogs.com/jiaxiaoxin/p/10642263.html
 conda install -c conda-forge uwsgi 
 conda install -c conda-forge libiconv
