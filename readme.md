@@ -22,7 +22,13 @@ pip install django==2.2.0 -i https://pypi.tuna.tsinghua.edu.cn/simple/
 pip install django-cors-headers -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 ###
+#可以安装apt版本uwsgi，详见uwsgi.ini配置中说明
+apt install uwsgi
+apt install uwsgi-plugin-python3
+
+#或pip版
 pip install uwsgi -i https://pypi.tuna.tsinghua.edu.cn/simple/
+#如果报错，可以降低gcc版本
 ```
 
 5. 最终部署为两步
